@@ -15,23 +15,6 @@ The project includes both hardware-based waveform observation and MATLAB-based s
 * To separate the original message signal through demodulation.
 * To understand amplitude modulation and demodulation techniques.
 * To observe message, carrier, modulated, and demodulated waveforms using an oscilloscope.
-* To simulate amplitude modulation using MATLAB.# **Amplitude Modulation and Demodulation using MATLAB and Hardware Kit**
-
-## **Project Overview**
-
-This project presents an experimental study of amplitude modulation and demodulation using communication trainer kits, oscilloscope waveform observation, and MATLAB simulation.
-
-Amplitude Modulation, commonly known as AM, is one of the oldest and most widely used modulation techniques in communication engineering. In this experiment, a message signal and a carrier signal are combined to generate an amplitude-modulated signal. The modulated signal is then received and demodulated to recover the original message signal.
-
-The project includes both hardware-based waveform observation and MATLAB-based simulation of amplitude modulation under different modulation conditions.
-
-## **Objectives**
-
-* To combine message and carrier frequencies.
-* To transmit and receive an amplitude-modulated signal.
-* To separate the original message signal through demodulation.
-* To understand amplitude modulation and demodulation techniques.
-* To observe message, carrier, modulated, and demodulated waveforms using an oscilloscope.
 * To simulate amplitude modulation using MATLAB.
 * To compare perfect modulation, over modulation, and under modulation conditions
 
