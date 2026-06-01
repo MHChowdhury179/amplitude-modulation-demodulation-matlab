@@ -76,76 +76,76 @@ The following equipment was used in this experiment:
 
 ### **Figure 1: Block Diagram for Amplitude Modulation**
 
-![Figure 1: Block Diagram for Amplitude Modulation](assets/block-diagrams/amplitude_modulation_block_diagram.png)
+![Figure 1: Block Diagram for Amplitude Modulation](amplitude_modulation_block_diagram.png)
 
-**Description:**
+
 This figure shows the basic block diagram used for studying amplitude modulation generation using the transmitter kit.
 
 ### **Figure 2: Block Diagram for Amplitude Demodulation**
 
-![Figure 2: Block Diagram for Amplitude Demodulation](assets/block-diagrams/amplitude_demodulation_block_diagram.png)
+![Figure 2: Block Diagram for Amplitude Demodulation](amplitude_demodulation_block_diagram.png)
 
-**Description:**
+
 This figure shows the block diagram used for amplitude demodulation and signal recovery using the receiver kit.
 
 ## **Hardware Setup**
 
 ### **Figure 3: Amplitude Modulation Transmitter Kit**
 
-![Figure 3: Amplitude Modulation Transmitter Kit](assets/hardware-setup/amplitude_modulation_transmitter_kit.png)
+![Figure 3: Amplitude Modulation Transmitter Kit](amplitude_modulation_transmitter_kit.png)
 
-**Description:**
+
 This figure shows the FALCON ACL-01 amplitude modulation transmitter kit used for generating the AM signal.
 
 ### **Figure 4: Amplitude Demodulation Receiver Kit**
 
-![Figure 4: Amplitude Demodulation Receiver Kit](assets/hardware-setup/amplitude_demodulation_receiver_kit.png)
+![Figure 4: Amplitude Demodulation Receiver Kit](amplitude_demodulation_receiver_kit.png)
 
-**Description:**
+
 This figure shows the FALCON ACL-02 amplitude demodulation receiver kit used for receiving and demodulating the AM signal.
 
 ### **Figure 5: Experimental Setup of Amplitude Modulation and Demodulation**
 
-![Figure 5: Experimental Setup](assets/hardware-setup/experimental_setup.png)
+![Figure 5: Experimental Setup](experimental_setup.png)
 
-**Description:**
+
 This figure shows the complete experimental setup, including the oscilloscope, communication kit, power supply, and jumper connections.
 
 ## **Oscilloscope Waveforms**
 
 ### **Figure 6: Message Signal Waveform**
 
-![Figure 6: Message Signal Waveform](assets/oscilloscope-waveforms/message_signal_waveform.png)
+![Figure 6: Message Signal Waveform](message_signal_waveform.png)
 
-**Description:**
+
 This waveform represents the low-frequency message signal used for amplitude modulation.
 
 ### **Figure 7: Carrier Signal Waveform**
 
-![Figure 7: Carrier Signal Waveform](assets/oscilloscope-waveforms/carrier_signal_waveform.png)
+![Figure 7: Carrier Signal Waveform](carrier_signal_waveform.png)
 
-**Description:**
+
 This waveform represents the high-frequency carrier signal used to carry the message signal.
 
 ### **Figure 8: Perfectly Modulated Signal Waveform, m = 1**
 
-![Figure 8: Perfectly Modulated Signal Waveform](assets/oscilloscope-waveforms/perfectly_modulated_waveform_m1.png)
+![Figure 8: Perfectly Modulated Signal Waveform](perfectly_modulated_waveform_m1.png)
 
-**Description:**
+
 This figure shows the perfectly modulated AM waveform where the modulation index is equal to 1.
 
 ### **Figure 9: Over Modulated Signal Waveform, m > 1**
 
-![Figure 9: Over Modulated Signal Waveform](assets/oscilloscope-waveforms/over_modulated_waveform_m_greater_1.png)
+![Figure 9: Over Modulated Signal Waveform](over_modulated_waveform_m_greater_1.png)
 
-**Description:**
+
 This figure shows the over-modulated AM waveform. In this condition, the modulation index is greater than 1, which causes distortion in the signal envelope.
 
 ### **Figure 10: Under Modulated Signal Waveform, m < 1**
 
-![Figure 10: Under Modulated Signal Waveform](assets/oscilloscope-waveforms/under_modulated_waveform_m_less_1.png)
+![Figure 10: Under Modulated Signal Waveform](under_modulated_waveform_m_less_1.png)
 
-**Description:**
+
 This figure shows the under-modulated AM waveform. In this condition, the modulation index is less than 1.
 
 ## **MATLAB Simulation**
@@ -162,23 +162,23 @@ src/am_modulation_simulation.m
 
 ### **Figure 11: MATLAB Output for Perfect Modulation, m = 1**
 
-![Figure 11: MATLAB Perfect Modulation Output](assets/matlab-output/matlab_perfect_modulation_m1.png)
+![Figure 11: MATLAB Perfect Modulation Output](matlab_perfect_modulation_m1.png)
 
-**Description:**
+
 This figure shows the MATLAB simulation output for perfect modulation, where the modulation index is equal to 1.
 
 ### **Figure 12: MATLAB Output for Over Modulation, m > 1**
 
-![Figure 12: MATLAB Over Modulation Output](assets/matlab-output/matlab_over_modulation_m_greater_1.png)
+![Figure 12: MATLAB Over Modulation Output](matlab_over_modulation_m_greater_1.png)
 
-**Description:**
+
 This figure shows the MATLAB simulation output for over modulation, where the modulation index is greater than 1.
 
 ### **Figure 13: MATLAB Output for Under Modulation, m < 1**
 
-![Figure 13: MATLAB Under Modulation Output](assets/matlab-output/matlab_under_modulation_m_less_1.png)
+![Figure 13: MATLAB Under Modulation Output](matlab_under_modulation_m_less_1.png)
 
-**Description:**
+
 This figure shows the MATLAB simulation output for under modulation, where the modulation index is less than 1.
 
 ## **How to Run the MATLAB Code**
@@ -229,18 +229,4 @@ The result confirms that amplitude modulation depends strongly on the modulation
 
 Therefore, the experiment was successfully completed and the basic concept of amplitude modulation and demodulation was verified through both hardware observation and MATLAB simulation.
 
-## **Documentation**
 
-The full laboratory report is available in:
-
-```text
-docs/am-modulation-demodulation-report.pdf
-```
-
-## **License**
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## **Author**
-
-Prepared as an academic communication engineering laboratory project on amplitude modulation and demodulation using hardware kits and MATLAB simulation.
