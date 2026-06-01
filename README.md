@@ -155,7 +155,7 @@ The MATLAB simulation was performed to generate and observe the message signal, 
 The MATLAB code is stored in:
 
 ```text
-src/am_modulation_simulation.m
+am_modulation_simulation.m
 ```
 
 ## **MATLAB Output Waveforms**
