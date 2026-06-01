@@ -198,34 +198,6 @@ This figure shows the MATLAB simulation output for over modulation, where the mo
 
 This figure shows the MATLAB simulation output for under modulation, where the modulation index is less than 1.
 
-## **How to Run the MATLAB Code**
-
-1. Open MATLAB.
-2. Open the project folder.
-3. Go to the `src/` directory.
-4. Open the file:
-
-```text
-am_modulation_simulation.m
-```
-
-5. Run the program.
-6. Enter the modulation index when prompted.
-
-Example:
-
-```text
-Modulation Index = 1
-```
-
-Use different values of modulation index to observe different modulation conditions:
-
-```text
-m = 1      Perfect modulation
-m > 1      Over modulation
-m < 1      Under modulation
-```
-
 ## **Observation**
 
 From the oscilloscope output, the message signal, carrier signal, and modulated signal were observed successfully. The shape of the modulated signal changed according to the modulation index.
